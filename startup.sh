@@ -4,7 +4,7 @@
 read -p 'Mount which repo(s) (i.e. gridpp.cern.ch comma separated): ' repos
 echo "CVMFS_REPOSITORIES=$repos" > /etc/cvmfs/default.local
 (
-IFS='_'
+IFS=','
 for repo in $repos
 do
   mkdir -p /cvmfs/$repo
