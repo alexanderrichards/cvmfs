@@ -1,3 +1,4 @@
+# syntax = docker/dockerfile:1
 FROM centos:7
 
 RUN yum install -y https://ecsft.cern.ch/dist/cvmfs/cvmfs-release/cvmfs-release-latest.noarch.rpm
