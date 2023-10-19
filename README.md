@@ -7,6 +7,13 @@
 # cvmfs
 
 
-To run a container from this image make sure to provide when prompted the repos that you wish to mount. *Note* These should be comma separated.
+To run a container from this image run the command below
+
+```bash
+docker run -it --privileged alexanderrichards/cvmfs
+```
+
+and make sure to provide when prompted the repos that you wish to mount. *Note* These should be comma separated as in the example below.
+
 
 ![CVMFS Image Usage](examples/image_usage.gif)
